@@ -1,5 +1,6 @@
 KarmaServer
 ===========
+TODO: Change the name of this repo
 
 A RESTful document processing server that accepts documents and uses Google Drive to process and return html content
 
@@ -7,10 +8,20 @@ A RESTful document processing server that accepts documents and uses Google Driv
 ## Installation
 
     npm install
+    
+    TODO: Note the issue with creating a token upon file selection to match the request doc and response data
 
 ## Documentation
 
 You're reading it!
+
+## Configuration
+
+TODO: Add config instructions for users who setup their own server
+
+Things to include:
+   - Whitelist of request / response servers
+   - How to register google api auth credentials
 
 ### Examples
 
@@ -68,7 +79,7 @@ TODO: design the app to this point, see what metadata we want to provide, and th
 ```bash
 wget
 ```
-
+TODO: there needs to be a list for a given file, reporting what export formats are available along with other relevant meta-data
 
 ## Versioning
 
